@@ -7,7 +7,10 @@ public class Users {
 	private String userName;
 	private String userPassword;
 	private Timestamp userTime;
+	private Timestamp UserUpDateTime;
+	
 	private int userStatus;
+	
 	public int getUserId() {
 		return userId;
 	}
